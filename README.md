@@ -31,7 +31,7 @@ curl -O http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz
 curl -O http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz.pkl
 ```
 
-##To Run:
+## To Run:
 ```
 python wmemnn.py babi/qa5_three-arg-relations_train.txt
 ```
@@ -44,7 +44,7 @@ some others available in:
 python wmemnn.py babi/en/~~~.txt
 ```
 
-##Note
+## Note
 to redownload bAbi manually
 ```
 cd (top_directory_of_folder)
@@ -57,7 +57,7 @@ if using newest version of Keras, need to add [theano_utils.py](https://github.c
 /Library/Python/2.7/site-packages/keras/utils/
 ```
 
-##Issues
+## Issues
 This model currently has issues with converging completely.
 
 Pull requests trying to remedy this issue are welcomed.
